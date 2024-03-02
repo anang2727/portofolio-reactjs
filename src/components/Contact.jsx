@@ -17,7 +17,6 @@ const Contact = () => {
               <a href="https://www.instagram.com/anang__k/" className="no-underline" title="Instagram">
                   <FaInstagram className='text-[#1f1f1f] text-2xl lg:text-3xl'></FaInstagram>
               </a>
-
               <a href="https://www.youtube.com/@anangkurniawan2727/" className="no-underline" title="Youtube">
                 <FaYoutube className='text-[#1f1f1f] text-2xl lg:text-3xl'></FaYoutube>
               </a>
