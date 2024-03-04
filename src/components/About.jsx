@@ -21,10 +21,10 @@ const About = () => {
   }, []);
 
   return (
-    <div className='h-screen flex lg:justify-between text-[#1f1f1f] items-center justify-center flex-wrap mt-20 py-10'>
+    <div className='h-screen min-w-full flex lg:justify-between text-[#1f1f1f] items-center justify-center flex-wrap mt-20 py-10'>
         <div className=''>
           {/* Home Section  */}
-          <div className=' animate__animated lg:animate__fadeInUp animate__fadeInLeft animate__ease-in animate__slow'>
+          <div className='px-5 animate__animated lg:animate__fadeInUp animate__fadeInLeft animate__ease-in animate__slow'>
             <h1 className='font-poppins-medium text-[#1F1F1F] '>About<MdEco  className='text-base mx-2 text-slate-500'/></h1>
             <p className='text-slate-600 font-poppins-regular lg:text-2xl'>Hello everyone! I'm <span className='bg-[#1f1f1f] text-white mx-1 px-1'>Anang Kurniawan</span>, an enthusiastic computer science student passionate about coding. Despite being a beginner, I've been exploring coding for three years and always seeking new experiences. Let's embark on a coding adventure together!</p>
           </div>
@@ -58,32 +58,32 @@ const About = () => {
           {/* Skills Sections  */}
           <div className='my-20' data-aos='fade-up' data-aos-anchor-placement="top-center">
                 <h1 className='font-poppins-medium text-[#1F1F1F] '>Skills <RiBardLine className='text-base text-slate-500'/></h1>
-                <div className='font-poppins-medium flex gap-3'>
+                <div className='font-poppins-medium flex gap-1'>
                     <CardLogo imageSrc="/logo/html5-original.png" text="HTML"></CardLogo>
                     <CardLogo imageSrc="/logo/css3-original.png" text="CSS"></CardLogo>
                     <CardLogo imageSrc="/logo/javascript-original.png" text="JAVASCRIPT"></CardLogo>
                 </div>
-                <div className='font-poppins-medium flex gap-3 my-3'>
+                <div className='font-poppins-medium flex gap-1 my-3'>
                   <CardLogo imageSrc="/logo/php-original.png" text="PHP"></CardLogo>
                   <CardLogo imageSrc="/logo/python-original.png" text="PYTHON"></CardLogo>
                   <CardLogo imageSrc="/logo/bootstrap-original.png" text="BOOSTRAP"></CardLogo>
                 </div>
-                <div className='font-poppins-medium flex gap-3 my-3'>
+                <div className='font-poppins-medium flex gap-1 my-3'>
                   <CardLogo imageSrc="/logo/laravel-plain.png" text="LARAVEL"></CardLogo>
                   <CardLogo imageSrc="/logo/codeigniter-plain.png" text="CODEIGNITER"></CardLogo>
                   <CardLogo imageSrc="/logo/mysql-original.png" text="MYSQL"></CardLogo>
                 </div>
-                <div className='font-poppins-medium flex gap-3 my-3'>
+                <div className='font-poppins-medium flex gap-1 my-3'>
                   <CardLogo imageSrc="/logo/react-original.png" text="REACTJS"></CardLogo>
                   <CardLogo imageSrc="/logo/tailwindcss-plain.png" text="TAILWINDCSS"></CardLogo>
                   <CardLogo imageSrc="/logo/nodejs-plain.png" text="NODEJS"></CardLogo>
                 </div>
-                <div className='font-poppins-medium flex gap-3 my-3'>
+                <div className='font-poppins-medium flex gap-1 my-3'>
                   <CardLogo imageSrc="/logo/git-plain.png" text="GIT"></CardLogo>
                   <CardLogo imageSrc="/logo/dart-original.png" text="DART"></CardLogo>
                   <CardLogo imageSrc="/logo/flutter-original.png" text="FLUTTER"></CardLogo>
                 </div>
-                <div className='font-poppins-medium flex gap-3 my-3'>
+                <div className='font-poppins-medium flex gap-1 my-3'>
                   <CardLogo imageSrc="/logo/figma-original.png" text="FIGMA"></CardLogo>
                   <CardLogo imageSrc="/logo/xd-line.png" text="XD"></CardLogo>
                   <CardLogo imageSrc="/logo/illustrator-line.png" text="ILLUSTRATOR"></CardLogo>
@@ -92,7 +92,7 @@ const About = () => {
           {/* Skills Sections  End*/}
 
           {/* Sertification Sections  */}
-          <div className='px-3' data-aos='fade-up' data-aos-anchor-placement="top-center">
+          <div className='px-5' data-aos='fade-up' data-aos-anchor-placement="top-center">
               <h1 className='font-poppins-medium text-[#1F1F1F] '>Sertification <CiCreditCard2  className='text-base text-slate-500'/></h1>
               <div>
                 <Sertificat nameSertificat={"AWS CLOUD -"} startUp={"Dicoding"}/>
@@ -105,7 +105,7 @@ const About = () => {
           {/* Sertification Sections End  */}
 
           {/* Footer Sections  */}
-          <footer className='py-5 mt-10'>
+          <footer className='py-5 px-7 mt-10'>
             <div className='card  mx-auto'>
               <h3 className='font-poppins-regular text-sm text-center text-slate-700'>© 2024 Anang Kurniawan <label htmlFor="modal-1" className='text-slate-500 cursor-pointer  italic font-poppins-light no-underline'>Info Web</label></h3>
             </div>
